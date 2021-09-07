@@ -1,0 +1,21 @@
+Feature: User need to purchase a dress
+Scenario: User is in login page
+Given user need to login with username and password
+When  user need to click the login button
+
+
+Scenario: 2
+Given user need to select a dress
+When  user need to select dress type
+Then  user need to select dress quantity
+And   user need to select dress size
+And   user need to choose dress colour
+And   user need th add the dress to cart
+And user need to proceed checkout
+
+Scenario: 3
+Given User need to get order summary
+When user need to enter the address
+Then user need to tick the check box
+And User have to start the  shipping process
+Then user need to pay for the purchased product
