@@ -8,6 +8,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+Added New POM class for this  project
+
+
+
 public class dressPom2 {
 	public static WebDriver driver;
 
